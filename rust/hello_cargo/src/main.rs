@@ -278,6 +278,8 @@ fn as_ref_() {
 
 
 
+mod mybool;
+
 fn main() {
     // tchannel();
     // tmutex();
@@ -286,7 +288,10 @@ fn main() {
 
     // parse();
 
-    as_ref_();
+    // as_ref_();
+
+    // mybool::test();
+    mybool::test_bool();
 
 }
 
