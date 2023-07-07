@@ -279,6 +279,7 @@ fn as_ref_() {
 
 
 mod mybool;
+mod circuit; 
 
 fn main() {
     // tchannel();
@@ -291,7 +292,9 @@ fn main() {
     // as_ref_();
 
     // mybool::test();
-    mybool::test_bool();
+    // mybool::test_bool();
+
+    circuit::circuit();
 
 }
 
